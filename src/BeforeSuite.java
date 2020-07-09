@@ -6,7 +6,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 
-public @interface Test {
-    String description () default ("Без описания");
-    int time () default -1;
+public @interface BeforeSuite {
 }
